@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  .app {
+    @apply bg-main-light-bg dark:bg-main-dark-bg min-h-screen text-main-color duration-500;
+  }
+  ::-webkit-scrollbar {
+    @apply w-1;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-slate-300 dark:bg-main-dark-bg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-main-color;
+  }
+  .customContainer {
+    @apply px-3;
+  }
+  .mainHeader {
+    @apply sticky top-0;
+  }
+  .navItemHover {
+    @apply hover:bg-slate-200 dark:hover:bg-zinc-600 hover:bg-opacity-20 rounded-md duration-200;
+  }
+  .gradient {
+    @apply background: linear-gradient(270deg, #9A814E 0%, #1e1d1d 100%);
+    @apply -webkit-background-clip: text;
+    @apply -webkit-text-fill-color: transparent;
+  }
+  .dark-gradient {
+    @apply background: linear-gradient(270deg, #9a814e 0%, #ffffff 100%);
+    @apply -webkit-background-clip: text;
+    @apply -webkit-text-fill-color: transparent;
+  }
+}/*# sourceMappingURL=index.css.map */
