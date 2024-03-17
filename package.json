@@ -20,7 +20,7 @@
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "redux": "^4.2.1",
-    "sass": "^1.58.1",
+    "sass": "^1.72.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
@@ -49,6 +49,8 @@
     ]
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.2.5",
     "tailwindcss": "^3.2.6"
   }
 }
