@@ -7,7 +7,14 @@ module.exports = {
       center: true,
       padding: '10px',
     },
-    extend: {},
+    extend: {
+      colors: {
+        bodyBg: 'var(--bodyBg)',
+        textColor: 'var(--textColor)',
+        gold: 'var(--gold)',
+        contentBlockBg: 'var(--contentBlockBg)',
+      },
+    },
   },
   plugins: [],
 };

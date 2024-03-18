@@ -2,4 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {}
+@layer base {
+  :root {
+    --bodyBg: #ffefeb;
+    --textColor: #333;
+    --gold: #9a814e;
+    --contentBlockBg: #FFF7F3;
+  }
+
+  .dark {
+    --bodyBg: #0e0e0e;
+    --textColor: #fff;
+    --gold: #9a814e;
+  }
+}

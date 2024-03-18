@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { BsMoonStars, BsSun } from 'react-icons/bs';
 
 import { Button } from 'ui-elements/Button';
 
@@ -21,8 +22,16 @@ export const Header = () => {
 
   return (
     <div>
-      <div className="container">
-        <Button onClick={handleTheme}>theme</Button>
+      <div className="py-2 grid grid-cols-3">
+        <Button onClick={handleTheme}>
+          {theme === 'light' ? <BsSun /> : <BsMoonStars />}
+        </Button>
+
+        <div className="flex items-center gap-1 justify-center text-gold font-medium">
+          Maslov
+          <img className='block w-10' src="/logo.svg" alt="logo" />
+          Center
+        </div>
       </div>
     </div>
   );
