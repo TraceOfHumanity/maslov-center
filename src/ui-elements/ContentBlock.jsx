@@ -1,5 +1,11 @@
 import React from 'react';
 
-export const ContentBlock = ({ children }) => {
-  return <div className='p-2 bg-contentBlockBg rounded-lg'>{children}</div>;
+import { cn } from 'utils/cn';
+
+export const ContentBlock = ({ children, className }) => {
+  return (
+    <div className={cn('rounded-lg bg-contentBlockBg p-2', className)}>
+      {children}
+    </div>
+  );
 };
