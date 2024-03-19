@@ -7,7 +7,8 @@
     --bodyBg: #ffefeb;
     --textColor: #333;
     --gold: #9a814e;
-    --contentBlockBg: #FFF7F3;
+    --contentBlockBg: #fff7f3;
+    --shadowColor: rgba(0, 0, 0, 0.1);
   }
 
   .dark {
@@ -15,5 +16,6 @@
     --textColor: #fff;
     --gold: #9a814e;
     --contentBlockBg: #1a1a1a;
+    --shadowColor: rgba(0, 0, 0, 0.7);
   }
 }

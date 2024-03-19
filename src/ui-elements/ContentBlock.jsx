@@ -4,7 +4,7 @@ import { cn } from 'utils/cn';
 
 export const ContentBlock = ({ children, className }) => {
   return (
-    <div className={cn('rounded-lg bg-contentBlockBg p-2', className)}>
+    <div className={cn('rounded-lg bg-contentBlockBg p-2 shadow-card', className)}>
       {children}
     </div>
   );

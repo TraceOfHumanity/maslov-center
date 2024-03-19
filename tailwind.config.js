@@ -13,6 +13,10 @@ module.exports = {
         textColor: 'var(--textColor)',
         gold: 'var(--gold)',
         contentBlockBg: 'var(--contentBlockBg)',
+        shadowColor: 'var(--shadowColor)',
+      },
+      boxShadow: {
+        "card": '3px 3px 5px 0 var(--shadowColor)',
       },
     },
   },

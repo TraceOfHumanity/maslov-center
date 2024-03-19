@@ -1,8 +1,10 @@
 import React from 'react';
 
-export const Button = ({ type, children, onClick }) => {
+import { cn } from 'utils/cn';
+
+export const Button = ({ type, children, onClick, className }) => {
   return (
-    <button className={``} onClick={onClick}>
+    <button className={cn('', className)} onClick={onClick}>
       {children || 'Button'}
     </button>
   );
