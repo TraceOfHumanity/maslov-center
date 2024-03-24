@@ -9,7 +9,8 @@ export const Main = () => {
   return (
     <div className="flex flex-auto flex-col gap-5">
       <Banner />
-      <WhyWeBlock />¿{/* <ContentBlock></ContentBlock> */}
+      <WhyWeBlock />
+      {/* <ContentBlock></ContentBlock> */}
     </div>
   );
 };

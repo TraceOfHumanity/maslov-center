@@ -6,13 +6,13 @@
     "Themes": "Themes",
     "Languages": "Languages"
   },
-  "Banner": {
-    "Title": "Your path to total wellness starts here!",
-    "Subtitle": "Restoring health is a process that requires time and patience. Our experts know how to help you navigate this path, so you can once again enjoy a full and active life.",
+  "banner": {
+    "title": "Your path to total wellness starts here!",
+    "subtitle": "Restoring health is a process that requires time and patience. Our experts know how to help you navigate this path, so you can once again enjoy a full and active life.",
     "Button": "Contact Us"
   },
   "WhyWe": {
-    "Title": "Why we?",
+    "title": "Why we?",
     "FirstPros": "Our services offer a holistic approach to physical and mental well-being, including massage, yoga, fitness training, sauna, fitetherapy, and so on.",
     "SecondPros": "At our rehabilitation center, we prioritize individualized care, customized treatment plans, expert knowledge, exceptional customer service, and a welcoming atmosphere to provide a unique experience for each client.",
     "ThirdPros": "Flexible working hours that allow you to conveniently plan your visits to the center.",
@@ -65,7 +65,7 @@
     "Location": "Sumy, Ukraine"
   },
   "Gallery": {
-    "Title": "Gallery"
+    "title": "Gallery"
   },
   "Error": {
     "M1": "Oops, an error occurred, ",

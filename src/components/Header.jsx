@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleTheme } from 'redux/features/themeSlice';
@@ -33,6 +34,12 @@ export const Header = () => {
     }
   }, [theme]);
 
+  const { i18n } = useTranslation();
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <div>
       <div className="grid grid-cols-3 py-2">
@@ -40,10 +47,10 @@ export const Header = () => {
         <HeaderLogo />
         <div className=" ml-auto flex gap-3">
           <div className="after:content-'' relative flex gap-1 after:absolute after:left-1/2 after:top-0 after:h-full after:w-[1px] after:bg-textColor">
-            <Button type="ghost" onClick={() => handleTheme()}>
+            <Button type="ghost" onClick={() => changeLanguage('ua')}>
               UA
             </Button>
-            <Button type="ghost" onClick={() => handleTheme()}>
+            <Button type="ghost" onClick={() => changeLanguage('en')}>
               EN
             </Button>
           </div>
