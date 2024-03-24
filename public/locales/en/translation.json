@@ -1,74 +1,63 @@
 {
-  "Navbar": {
-    "Home": "Home",
-    "Services": "Services",
-    "Settings": "Settings",
-    "Themes": "Themes",
-    "Languages": "Languages"
-  },
   "banner": {
     "title": "Your path to total wellness starts here!",
     "subtitle": "Restoring health is a process that requires time and patience. Our experts know how to help you navigate this path, so you can once again enjoy a full and active life.",
     "Button": "Contact Us"
   },
-  "WhyWe": {
+  "whyWe": {
     "title": "Why we?",
-    "FirstPros": "Our services offer a holistic approach to physical and mental well-being, including massage, yoga, fitness training, sauna, fitetherapy, and so on.",
-    "SecondPros": "At our rehabilitation center, we prioritize individualized care, customized treatment plans, expert knowledge, exceptional customer service, and a welcoming atmosphere to provide a unique experience for each client.",
-    "ThirdPros": "Flexible working hours that allow you to conveniently plan your visits to the center.",
-    "Forth": "Our goal is not only to restore health but also to maintain it for a long period. That's why we provide our clients with advice and recommendations to maintain a successful outcome."
+    "comprehensiveApproach": "Our services offer a holistic approach to physical and mental well-being, including massage, yoga, fitness training, sauna, fitetherapy, and so on.",
+    "relation": "At our rehabilitation center, we prioritize individualized care, customized treatment plans, expert knowledge, exceptional customer service, and a welcoming atmosphere to provide a unique experience for each client.",
+    "time": "Flexible working hours that allow you to conveniently plan your visits to the center.",
+    "goal": "Our goal is not only to restore health but also to maintain it for a long period. That's why we provide our clients with advice and recommendations to maintain a successful outcome."
   },
-  "Services": {
-    "Titles": {
-      "MainTitle": "Our services",
-      "TrainingTitle": "Individual physical training",
-      "MassageTitle": "Massage",
-      "PhytotherapyTitle": "Phytotherapy",
-      "YogaTitle": "Yoga",
-      "PhytotherapeuticBarrelTitle": "Phytotherapeutic barrel"
+  "services": {
+    "titles": {
+      "mainTitle": "Our services",
+      "trainingTitle": "Individual physical training",
+      "massageTitle": "massage",
+      "phytotherapyTitle": "phytotherapy",
+      "yogaTitle": "yoga",
+      "phytotherapeuticBarrelTitle": "Phytotherapeutic barrel"
     },
-    "Training": {
-      "Description": "Regular physical training is a necessary element of a healthy life. They improve the work of the cardiovascular and respiratory systems, help reduce stress and improve mood. In addition, physical activity helps maintain a normal body weight, strengthens muscles and bones, improves flexibility and mobility of joints, and reduces the risk of chronic diseases. In order to achieve the maximum benefit from physical training, it is recommended to devote enough time to it and do it regularly. The choice of sport should depend on individual preferences and physical capabilities. The main thing is that training should be pleasant and help you achieve your goals.",
+    "training": {
+      "description": "Regular physical training is a necessary element of a healthy life. They improve the work of the cardiovascular and respiratory systems, help reduce stress and improve mood. In addition, physical activity helps maintain a normal body weight, strengthens muscles and bones, improves flexibility and mobility of joints, and reduces the risk of chronic diseases. In order to achieve the maximum benefit from physical training, it is recommended to devote enough time to it and do it regularly. The choice of sport should depend on individual preferences and physical capabilities. The main thing is that training should be pleasant and help you achieve your goals.",
       "MTB": "Simulator of Bubnovsky (MTB)",
       "MTBDescription": "Disorders of the musculoskeletal system, heart, and blood vessels are common problems today. Properly selected physical loads can help get rid of them. For this purpose, the Bubnovsky simulator was developed. MTB or Bubnovsky simulator stimulates the work of deep back muscles and improves and restores joint mobility. The anti-gravity and decompression system reduces pain syndrome and relieves muscle spasms. The anti-gravity system means that your body (or parts of the body) is suspended when all your muscles and joints are completely unloaded, the force of gravity does not act on them, and complete stretching and relaxation occur. It is exercises of this type that relieve pain syndromes. The decompression system involves reducing the contact of joint surfaces by stretching, thus reducing the risk of wear and tear of inter-joint cartilage, as muscles work exclusively.",
-      "Rule": "«Pravilo» simulator",
-      "RuleDescription": "During training on the «Pravilo» simulator, the human body stretches in a horizontal plane using its own weight or a controlled load. In the past, it was widely used for various purposes: it was part of military training for soldiers, and regular people used it to improve their health. Nowadays, «Pravilo» is becoming increasingly popular as a strength training device that engages many muscles and improves the body's functioning. Training on the simulator activates the body's self-regulation processes and promotes positive changes in the musculoskeletal system, which is directly responsible for muscular activity. During training, physiological processes associated with abundant secretion of synovial (inter-articular) fluid, which nourishes cartilage tissue, participates in metabolic exchange in the joints, removes dead cells from them through lymphatic vessels, performs a barrier-protective immune function and is a natural lubricant in the joints, occur due to the release of the joint, slight flexion during tension, and in combination with proper breathing. Muscle tone improves. Training on the «Pravilo» is very useful for people with spine problems, as well as for their prevention. During spine extension, intervertebral gaps increase, which reduces nerve compression, reduces internal disc pressure, restores blood circulation, relieves pain, and most importantly, stretching prevents the formation of stagnation in the spine, which is an excellent prevention of scoliosis, osteochondrosis, radiculitis, etc.",
-      "GravityShoes": "Gravity (inversion) boots",
-      "GravityShoesDescription": "Gravity or inversion boots are supportive devices worn on the lower legs, making it possible to hang upside down without effort. One of the main effects of using gravity boots is to get rid of back pain and headaches by relieving the load on the back and saturating the brain with oxygen. In sports, they are used to train muscles at an unusual angle, for example, lifting the body to the legs to train the rectus and oblique abdominal muscles."
+      "rule": "«Pravilo» simulator",
+      "ruleDescription": "During training on the «Pravilo» simulator, the human body stretches in a horizontal plane using its own weight or a controlled load. In the past, it was widely used for various purposes: it was part of military training for soldiers, and regular people used it to improve their health. Nowadays, «Pravilo» is becoming increasingly popular as a strength training device that engages many muscles and improves the body's functioning. training on the simulator activates the body's self-regulation processes and promotes positive changes in the musculoskeletal system, which is directly responsible for muscular activity. During training, physiological processes associated with abundant secretion of synovial (inter-articular) fluid, which nourishes cartilage tissue, participates in metabolic exchange in the joints, removes dead cells from them through lymphatic vessels, performs a barrier-protective immune function and is a natural lubricant in the joints, occur due to the release of the joint, slight flexion during tension, and in combination with proper breathing. Muscle tone improves. training on the «Pravilo» is very useful for people with spine problems, as well as for their prevention. During spine extension, intervertebral gaps increase, which reduces nerve compression, reduces internal disc pressure, restores blood circulation, relieves pain, and most importantly, stretching prevents the formation of stagnation in the spine, which is an excellent prevention of scoliosis, osteochondrosis, radiculitis, etc.",
+      "gravityShoes": "Gravity (inversion) boots",
+      "gravityShoesDescription": "Gravity or inversion boots are supportive devices worn on the lower legs, making it possible to hang upside down without effort. One of the main effects of using gravity boots is to get rid of back pain and headaches by relieving the load on the back and saturating the brain with oxygen. In sports, they are used to train muscles at an unusual angle, for example, lifting the body to the legs to train the rectus and oblique abdominal muscles."
     },
-    "Massage": {
-      "Description": "Massage therapy as a complementary medicine helps in treating various health conditions such as arthritis, migraine, and depression. It examines how massage therapy can help alleviate symptoms, such as pain, inflammation, and muscle tension, through its physiological effects on the body. It also highlights the importance of integrating massage therapy into conventional medical treatments for optimal results.",
-      "Sedative": "Sedative (soothing) massage",
-      "SedativeDescription": "Sedative massage is a physiotherapy method used to reduce stress and anxiety levels, improve sleep quality, and enhance the overall psychoemotional state of a person. This type of massage is based on the influence on the nervous system of the body, particularly on the sympathetic and parasympathetic systems, which are responsible for the body's reactions to stressful stimuli. During sedative massage, various techniques are used to reduce muscle tension and increase relaxation. To achieve these goals, a therapist can use different massage techniques, such as deep, superficial, point-specific, and others. Additionally, various additional tools can be used to achieve the maximum effect, such as aromatherapy, sound therapy, and others. Sedative massage is a safe physiotherapy method, but it should only be performed by a qualified specialist, taking into account the patient's individual characteristics and the presence of contraindications. It can be used as a standalone method or as part of a treatment and rehabilitation complex, particularly for patients with anxiety disorders, depression, insomnia, and other psychoemotional problems.",
-      "Therapeutic": "Therapeutic massage",
-      "TherapeuticDescription": "Therapeutic massage is a physiotherapy method used to improve the functional state of muscles and promote overall health. This type of massage is based on the influence on the muscular, skeletal, and joint systems of the body using various massage techniques such as vibration, shaking, stretching, circular movements, and others. Therapeutic massage may be recommended for the treatment of various conditions, including relieving muscle and joint pain, improving circulation, reducing swelling, restoring movement function, and reducing muscle tension. Depending on the goals and objectives set by the specialist, there are several types of therapeutic massage, such as back massage, limb massage, neck and head massage, abdominal massage, and others. Additionally, therapeutic massage may be combined with other physiotherapy methods, such as physical exercise, acupuncture, therapeutic gymnastics, and others.",
-      "Glisson": "The Glisson's loop (traction loop)",
-      "GlissonDescription": "The Glisson's loop is a wide suspension strap that comfortably wraps around a person's head (occiput and chin). It is securely attached to a tension adjustment mechanism, which can be adjusted depending on the indications and recommendations of the rehabilitation specialist performing the procedure. The most common way to use the Glisson's loop is for long-term traction of the head, which is considered to be the safest for any type of cervical spine injury or prevention of cervical spine disorders."
+    "massage": {
+      "description": "massage therapy as a complementary medicine helps in treating various health conditions such as arthritis, migraine, and depression. It examines how massage therapy can help alleviate symptoms, such as pain, inflammation, and muscle tension, through its physiological effects on the body. It also highlights the importance of integrating massage therapy into conventional medical treatments for optimal results.",
+      "sedative": "sedative (soothing) massage",
+      "sedativeDescription": "sedative massage is a physiotherapy method used to reduce stress and anxiety levels, improve sleep quality, and enhance the overall psychoemotional state of a person. This type of massage is based on the influence on the nervous system of the body, particularly on the sympathetic and parasympathetic systems, which are responsible for the body's reactions to stressful stimuli. During sedative massage, various techniques are used to reduce muscle tension and increase relaxation. To achieve these goals, a therapist can use different massage techniques, such as deep, superficial, point-specific, and others. Additionally, various additional tools can be used to achieve the maximum effect, such as aromatherapy, sound therapy, and others. sedative massage is a safe physiotherapy method, but it should only be performed by a qualified specialist, taking into account the patient's individual characteristics and the presence of contraindications. It can be used as a standalone method or as part of a treatment and rehabilitation complex, particularly for patients with anxiety disorders, depression, insomnia, and other psychoemotional problems.",
+      "therapeutic": "therapeutic massage",
+      "therapeuticDescription": "therapeutic massage is a physiotherapy method used to improve the functional state of muscles and promote overall health. This type of massage is based on the influence on the muscular, skeletal, and joint systems of the body using various massage techniques such as vibration, shaking, stretching, circular movements, and others. therapeutic massage may be recommended for the treatment of various conditions, including relieving muscle and joint pain, improving circulation, reducing swelling, restoring movement function, and reducing muscle tension. Depending on the goals and objectives set by the specialist, there are several types of therapeutic massage, such as back massage, limb massage, neck and head massage, abdominal massage, and others. Additionally, therapeutic massage may be combined with other physiotherapy methods, such as physical exercise, acupuncture, therapeutic gymnastics, and others.",
+      "glisson": "The glisson's loop (traction loop)",
+      "glissonDescription": "The glisson's loop is a wide suspension strap that comfortably wraps around a person's head (occiput and chin). It is securely attached to a tension adjustment mechanism, which can be adjusted depending on the indications and recommendations of the rehabilitation specialist performing the procedure. The most common way to use the glisson's loop is for long-term traction of the head, which is considered to be the safest for any type of cervical spine injury or prevention of cervical spine disorders."
     },
-    "Phytotherapy": {
-      "Description": "Phytotherapy is a method of treatment that uses plant-based remedies to support and restore health. Phytotherapy involves the use of plant extracts, herbs, roots, flowers, seeds, and other plant parts to create medicines with healing properties. The use of phytotherapy has a long history and is a popular method of treatment in many cultures worldwide. Phytotherapy can be used to treat various illnesses, from simple ailments such as coughs, colds, and headaches, to more complex conditions such as cardiovascular disease, nervous system disorders, gastrointestinal disorders, and others. Phytopreparations can be used as a standalone method of treatment or as a complement to other methods. Phytotherapy involves the use of various forms of plant-based remedies, such as infusions, tinctures, oils, seeds, and others. Plant-based remedies can be used for internal and external use. For example, for external use, ointments, lotions, creams can be used, while for internal use, herbal teas, infusions, and other forms of plant-based remedies can be used.Phytotherapy can also be used for disease prevention and to support overall health. Depending on the purpose and goals, there are many different types of phytotherapy.",
-      "Porridge1": "Maslov herbal mixture #1",
-      "Porridge2": "Maslov herbal mixture #2",
-      "Tea1": "Maslov-tea for the hepatobiliary and urogenital systems",
-      "Tea2": "Maslov-tea for respiratory system",
-      "Tea3": "Sedative Maslov-tea"
+    "phytotherapy": {
+      "description": "phytotherapy is a method of treatment that uses plant-based remedies to support and restore health. phytotherapy involves the use of plant extracts, herbs, roots, flowers, seeds, and other plant parts to create medicines with healing properties. The use of phytotherapy has a long history and is a popular method of treatment in many cultures worldwide. phytotherapy can be used to treat various illnesses, from simple ailments such as coughs, colds, and headaches, to more complex conditions such as cardiovascular disease, nervous system disorders, gastrointestinal disorders, and others. Phytopreparations can be used as a standalone method of treatment or as a complement to other methods. phytotherapy involves the use of various forms of plant-based remedies, such as infusions, tinctures, oils, seeds, and others. Plant-based remedies can be used for internal and external use. For example, for external use, ointments, lotions, creams can be used, while for internal use, herbal teas, infusions, and other forms of plant-based remedies can be used.phytotherapy can also be used for disease prevention and to support overall health. Depending on the purpose and goals, there are many different types of phytotherapy.",
+      "porridge1": "Maslov herbal mixture #1",
+      "porridge2": "Maslov herbal mixture #2",
+      "tea1": "Maslov-tea for the hepatobiliary and urogenital systems",
+      "tea2": "Maslov-tea for respiratory system",
+      "tea3": "sedative Maslov-tea"
     },
-    "Yoga": {
-      "Description": "Yoga is one of the most popular forms of physical activity in the world. It includes various postures (asanas), breathing exercises and meditation. Practicing yoga can help improve physical and mental health, reduce stress and anxiety, and increase flexibility and coordination.",
-      "More": "One of the main benefits of practicing yoga is reducing stress and anxiety. Yoga helps you focus on your breathing and get rid of negative thoughts, which lowers the stress hormone cortisol. In addition, regular yoga practice can improve sleep quality, which also has a positive effect on mental health. Practicing yoga can also help improve physical health. The various asanas strengthen muscles, improve flexibility and coordination, and improve circulation, reducing the risk of cardiovascular disease. In addition, breathing exercises help increase the lungs and improve the respiratory system. Yoga can be practiced by people of all ages and fitness levels. There are many different styles of yoga that can be chosen according to personal needs and abilities. In addition, yoga classes can be done in a studio with a trainer or at home with online lessons."
+    "yoga": {
+      "description": "yoga is one of the most popular forms of physical activity in the world. It includes various postures (asanas), breathing exercises and meditation. Practicing yoga can help improve physical and mental health, reduce stress and anxiety, and increase flexibility and coordination.",
+      "More": "One of the main benefits of practicing yoga is reducing stress and anxiety. yoga helps you focus on your breathing and get rid of negative thoughts, which lowers the stress hormone cortisol. In addition, regular yoga practice can improve sleep quality, which also has a positive effect on mental health. Practicing yoga can also help improve physical health. The various asanas strengthen muscles, improve flexibility and coordination, and improve circulation, reducing the risk of cardiovascular disease. In addition, breathing exercises help increase the lungs and improve the respiratory system. yoga can be practiced by people of all ages and fitness levels. There are many different styles of yoga that can be chosen according to personal needs and abilities. In addition, yoga classes can be done in a studio with a trainer or at home with online lessons."
     },
-    "PhytotherapeuticBarrel": {
-      "Description": "Phytotherapeutic barrel is a unique spa procedure that combines the healing properties of heat and medicinal herbs to rejuvenate the body. During the procedure, the body (except the head) is immersed in a barrel filled with steam with a carefully selected mixture of herbs, which may include lavender, chamomile, eucalyptus, mint and others. The heat helps to open the pores and improve blood circulation, allowing the body to absorb the beneficial properties of the herbs. During the procedure, a person can also drink herbal tea. The procedure is usually carried out in a cedar barrel, which promotes relaxation and relieves muscle tension, creating a calming and invigorating effect. After the procedure, the client is transferred to a lying position, wrapped in a sheet to preserve heat for a certain period"
+    "phytotherapeuticBarrel": {
+      "description": "Phytotherapeutic barrel is a unique spa procedure that combines the healing properties of heat and medicinal herbs to rejuvenate the body. During the procedure, the body (except the head) is immersed in a barrel filled with steam with a carefully selected mixture of herbs, which may include lavender, chamomile, eucalyptus, mint and others. The heat helps to open the pores and improve blood circulation, allowing the body to absorb the beneficial properties of the herbs. During the procedure, a person can also drink herbal tea. The procedure is usually carried out in a cedar barrel, which promotes relaxation and relieves muscle tension, creating a calming and invigorating effect. After the procedure, the client is transferred to a lying position, wrapped in a sheet to preserve heat for a certain period"
     }
   },
-  "Info": {
+  "info": {
     "Location": "Sumy, Ukraine"
   },
-  "Gallery": {
-    "title": "Gallery"
-  },
-  "Error": {
-    "M1": "Oops, an error occurred, ",
-    "M2": "please go back to the homepage."
+  "gallery": {
+    "title": "gallery"
   }
 }

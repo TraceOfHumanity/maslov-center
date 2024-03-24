@@ -12,7 +12,7 @@ function App() {
 
   // const lng = navigator.language;
   return (
-    <div className="container flex min-h-screen flex-col">
+    <div className="container flex min-h-screen flex-col gap-5">
       {/* <p>browser language: {lng}</p> */}
       <Header />
       <Main />

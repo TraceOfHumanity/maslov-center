@@ -15,7 +15,7 @@ export const ContentBlock = ({ children, className }) => {
       {children}
       <div
         className={cn(
-          'absolute top-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat',
+          'pointer-events-none absolute top-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat',
           theme === 'light' ? 'opacity-10' : 'opacity-5',
         )}
         style={{
