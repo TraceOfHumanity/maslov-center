@@ -38,9 +38,19 @@ export const Header = () => {
       <div className="grid grid-cols-3 py-2">
         <div className=""></div>
         <HeaderLogo />
-        <Button className='ml-auto' onClick={() => handleTheme()}>
-          {theme === 'light' ? <BsSun /> : <BsMoonStars />}
-        </Button>
+        <div className=" ml-auto flex gap-3">
+          <div className="after:content-'' relative flex gap-1 after:absolute after:left-1/2 after:top-0 after:h-full after:w-[1px] after:bg-textColor">
+            <Button type="ghost" onClick={() => handleTheme()}>
+              UA
+            </Button>
+            <Button type="ghost" onClick={() => handleTheme()}>
+              EN
+            </Button>
+          </div>
+          <Button type="ghost" onClick={() => handleTheme()}>
+            {theme === 'light' ? <BsSun /> : <BsMoonStars />}
+          </Button>
+        </div>
       </div>
     </div>
   );

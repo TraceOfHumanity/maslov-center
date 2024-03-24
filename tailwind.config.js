@@ -14,9 +14,12 @@ module.exports = {
         gold: 'var(--gold)',
         contentBlockBg: 'var(--contentBlockBg)',
         shadowColor: 'var(--shadowColor)',
+        accentColor: 'var(--accentColor)',
       },
       boxShadow: {
-        "card": '3px 3px 5px 0 var(--shadowColor)',
+        card: '3px 3px 5px 0 var(--shadowColor)',
+        // button:
+        //   '3px 3px 5px 0 var(--shadowColor), inset -3px -3px 5px 2px var(--shadowColor)',
       },
     },
   },
