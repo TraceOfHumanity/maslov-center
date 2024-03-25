@@ -161,6 +161,7 @@ export const Services = () => {
               index={index}
             />
             <AccordionItemContent
+              title={item.serviceTitle}
               serviceDescription={item.serviceDescription}
               variants={item.variants}
             />

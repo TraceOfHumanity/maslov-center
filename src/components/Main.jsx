@@ -1,9 +1,8 @@
 import React from 'react';
 
-import { ContentBlock } from 'ui-elements/ContentBlock';
-
 import { Banner } from './Banner';
 import { Services } from './Services';
+import { GallerySlider } from './Slider';
 import { WhyWeBlock } from './WhyWeBlock';
 
 export const Main = () => {
@@ -12,6 +11,7 @@ export const Main = () => {
       <Banner />
       <WhyWeBlock />
       <Services />
+      <GallerySlider />
       {/* <ContentBlock></ContentBlock> */}
     </div>
   );
