@@ -7,6 +7,8 @@ import { cn } from 'utils/cn';
 
 import { ContentBlock } from 'ui-elements/ContentBlock';
 
+import { AccordionButton } from './AccordionButton';
+
 export const Services = () => {
   const { t } = useTranslation();
 
@@ -157,17 +159,11 @@ export const Services = () => {
               prevActiveHandler(active);
             }}
           >
-            <div className="accordionMenu flex items-center justify-between gap-5">
-              <h3>{item.serviceTitle}</h3>
-              <div
-                className={cn(
-                  'duration-500',
-                  active === index && '-scale-y-100',
-                )}
-              >
-                <BsChevronDown />
-              </div>
-            </div>
+            <AccordionButton
+              title={item.serviceTitle}
+              active={active}
+              index={index}
+            />
             <div className="accordionContent h-0 overflow-hidden ">
               <p className="mb-5">{item.servicedescription}</p>
               {item.variants?.map((variant, index) => (
