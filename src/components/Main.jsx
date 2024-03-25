@@ -12,7 +12,6 @@ export const Main = () => {
       <WhyWeBlock />
       <Services />
       <GallerySlider />
-      {/* <ContentBlock></ContentBlock> */}
     </div>
   );
 };

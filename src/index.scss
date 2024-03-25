@@ -72,16 +72,6 @@
   }
 }
 
-// @media (max-width: 1000px) {
-//   .slideItem {
-//     height: calc(300px + (450 - 300) * ((100vw - 768px) / (1000 - 768)));
-//     background-color: red;
-//   }
-// }
-.slick-slide {
-  // padding: 0 20px;
-}
-
 @media (min-width: 768px) {
   .slick-slide {
     padding: 0 20px;
