@@ -6,10 +6,10 @@ import { ContentBlock } from 'ui-elements/ContentBlock';
 
 export const AccordionItemContent = ({ serviceDescription, variants }) => {
   return (
-    <div className="accordionContent h-0 overflow-hidden">
+    <div className="accordionContent flex h-0 flex-col gap-5 overflow-hidden">
       <p>{serviceDescription}</p>
       {variants?.map((variant, index) => (
-        <div className="mb-5">
+        <div>
           <h4 className="mb-5 text-center" key={index}>
             {variant.title}
           </h4>

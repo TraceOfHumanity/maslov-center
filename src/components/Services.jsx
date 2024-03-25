@@ -1,11 +1,6 @@
 import gsap from 'gsap';
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { BsChevronDown } from 'react-icons/bs';
-
-import { cn } from 'utils/cn';
-
-import { ContentBlock } from 'ui-elements/ContentBlock';
 
 import { AccordionButton } from './AccordionButton';
 import { AccordionItemContent } from './AccordionItemContent';
@@ -100,6 +95,7 @@ export const Services = () => {
       ],
     },
   ];
+
   const [active, setActive] = useState(null);
   const [prevActive, setPrevActive] = useState(null);
   const prevActiveHandler = (index) => {
