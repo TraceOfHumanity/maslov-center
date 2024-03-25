@@ -8,6 +8,7 @@ import { cn } from 'utils/cn';
 import { ContentBlock } from 'ui-elements/ContentBlock';
 
 import { AccordionButton } from './AccordionButton';
+import { AccordionItemContent } from './AccordionItemContent';
 
 export const Services = () => {
   const { t } = useTranslation();
@@ -15,7 +16,7 @@ export const Services = () => {
   const serviceItems = [
     {
       serviceTitle: t('services.titles.trainingTitle'),
-      servicedescription: t('services.training.description'),
+      serviceDescription: t('services.training.description'),
       variants: [
         {
           title: t('services.training.MTB'),
@@ -41,7 +42,7 @@ export const Services = () => {
     },
     {
       serviceTitle: t('services.titles.massageTitle'),
-      servicedescription: t('services.massage.description'),
+      serviceDescription: t('services.massage.description'),
       variants: [
         {
           title: t('services.massage.sedative'),
@@ -57,7 +58,7 @@ export const Services = () => {
     },
     {
       serviceTitle: t('services.titles.phytotherapyTitle'),
-      servicedescription: t('services.phytotherapy.description'),
+      serviceDescription: t('services.phytotherapy.description'),
       variants: [
         {
           title: t('services.phytotherapy.porridge1'),
@@ -78,7 +79,7 @@ export const Services = () => {
     },
     {
       serviceTitle: t('services.titles.yogaTitle'),
-      servicedescription: t('services.yoga.description'),
+      serviceDescription: t('services.yoga.description'),
       variants: [
         {
           title: '',
@@ -89,7 +90,7 @@ export const Services = () => {
     },
     {
       serviceTitle: t('services.titles.phytotherapeuticBarrelTitle'),
-      // servicedescription: t('services.phytotherapeuticBarrel.description'),
+      // serviceDescription: t('services.phytotherapeuticBarrel.description'),
       variants: [
         {
           title: '',
@@ -152,8 +153,7 @@ export const Services = () => {
         {serviceItems.map((item, index) => (
           <div
             key={index}
-            className={` accordionGroup border-b border-textColor py-2 last:border-none
-             `}
+            className={` accordionGroup border-b border-textColor pt-2 pb-5 last:border-none`}
             onClick={() => {
               setActive(index);
               prevActiveHandler(active);
@@ -164,36 +164,10 @@ export const Services = () => {
               active={active}
               index={index}
             />
-            <div className="accordionContent h-0 overflow-hidden ">
-              <p className="mb-5">{item.servicedescription}</p>
-              {item.variants?.map((variant, index) => (
-                <div className="mb-5">
-                  <h4 className="mb-5 text-center" key={index}>
-                    {variant.title}
-                  </h4>
-                  <div className="relative">
-                    <ContentBlock
-                      className={cn(
-                        '',
-                        index % 2 === 0 ? 'flex-row-reverse ' : 'flex-row',
-                      )}
-                    >
-                      <div
-                        className={cn(
-                          'z-10 inline-block sm:max-w-[400px]',
-                          index % 2 === 0
-                            ? 'sm:float-left sm:mr-5'
-                            : 'sm:float-right sm:ml-5',
-                        )}
-                      >
-                        <img src={variant.image} alt={variant.title} />
-                      </div>
-                      {variant.description}
-                    </ContentBlock>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <AccordionItemContent
+              serviceDescription={item.serviceDescription}
+              variants={item.variants}
+            />
           </div>
         ))}
       </div>
