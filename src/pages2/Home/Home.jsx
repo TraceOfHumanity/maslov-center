@@ -139,7 +139,7 @@ const Home = (props) => {
               alt="maslov yoga"
             />
             <p className="smd:col-start-2 smd:col-end-4 ">
-              {props.t('Services.yoga.More')}
+              {props.t('Services.yoga.more')}
             </p>
           </div>
         </Accordion>

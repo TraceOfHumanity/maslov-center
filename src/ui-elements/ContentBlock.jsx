@@ -8,14 +8,14 @@ export const ContentBlock = ({ children, className }) => {
   return (
     <div
       className={cn(
-        'relative rounded-lg bg-contentBlockBg p-4 shadow-card',
+        'relative z-10 overflow-hidden rounded-lg bg-contentBlockBg p-4 shadow-card',
         className,
       )}
     >
       {children}
       <div
         className={cn(
-          'pointer-events-none absolute top-0 left-0 h-full w-full bg-cover bg-center bg-no-repeat',
+          'pointer-events-none absolute top-0 left-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat',
           theme === 'light' ? 'opacity-10' : 'opacity-5',
         )}
         style={{
