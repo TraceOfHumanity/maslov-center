@@ -11,7 +11,7 @@ export const Main = () => {
       <Banner />
       <WhyWeBlock />
       <Services />
-      <GallerySlider />
+      {/* <GallerySlider /> */}
     </div>
   );
 };
