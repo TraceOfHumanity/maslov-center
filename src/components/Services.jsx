@@ -105,18 +105,18 @@ export const Services = () => {
           <div
             key={index}
             className={` accordionGroup border-b border-textColor pt-2 pb-5 last:border-none`}
-            onClick={() => {
-              setActiveItems((prev) =>
-                prev.includes(index)
-                  ? prev.filter((item) => item !== index)
-                  : [...prev, index],
-              );
-            }}
           >
             <AccordionButton
               title={item.serviceTitle}
               index={index}
               active={activeItems.includes(index)}
+              onClick={() => {
+                setActiveItems((prev) =>
+                  prev.includes(index)
+                    ? prev.filter((item) => item !== index)
+                    : [...prev, index],
+                );
+              }}
             />
             <AccordionItemContent
               title={item.serviceTitle}
