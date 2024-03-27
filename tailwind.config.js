@@ -18,8 +18,6 @@ module.exports = {
       },
       boxShadow: {
         card: '3px 3px 5px 0 var(--shadowColor)',
-        // button:
-        //   '3px 3px 5px 0 var(--shadowColor), inset -3px -3px 5px 2px var(--shadowColor)',
       },
     },
   },

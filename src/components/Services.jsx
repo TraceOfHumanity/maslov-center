@@ -85,7 +85,6 @@ export const Services = () => {
     },
     {
       serviceTitle: t('services.titles.phytotherapeuticBarrelTitle'),
-      // serviceDescription: t('services.phytotherapeuticBarrel.description'),
       variants: [
         {
           title: '',

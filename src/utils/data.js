@@ -76,11 +76,3 @@ export const links = [
     title: 'instagram',
   },
 ];
-
-// export const iconAnimationItems = [
-//   <TbYoga />,
-//   <MdOutlineSportsSoccer />,
-//   <MdOutlineSportsBasketball />,
-//   <MdSportsRugby />,
-//   <MdSportsHandball />,
-// ];

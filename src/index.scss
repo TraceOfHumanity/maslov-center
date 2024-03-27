@@ -51,7 +51,6 @@
 
 .slideItem {
   max-height: 600px;
-  // height: calc(300px + (600 - 300) * ((100vw - 360px) / (768 - 360)));
 }
 
 @media (min-width: 0px) {
@@ -97,7 +96,6 @@
     animation-delay: -$i * .2s;
     top: random(100) * 1px;
     left: random(100) * 1px;
-    // background: hsl(0deg 0% 100%);
     animation: particle-animation-#{$i} 120s infinite;
     -webkit-animation: particle-animation-#{$i} 120s infinite;
 
