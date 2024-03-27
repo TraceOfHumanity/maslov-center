@@ -9,10 +9,16 @@ export const AccordionItemContent = ({
   title,
   serviceDescription,
   variants,
+  active,
 }) => {
   const { t } = useTranslation();
   return (
-    <div className="accordionContent flex h-0 flex-col gap-5 overflow-hidden">
+    <div
+      className={cn(
+        'accordionContent mt-5 flex-col gap-5 overflow-hidden',
+        active ? 'flex' : 'hidden',
+      )}
+    >
       <p>{serviceDescription}</p>
       {title === t('services.titles.phytotherapyTitle') ? (
         <ContentBlock className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

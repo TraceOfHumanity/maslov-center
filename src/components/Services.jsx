@@ -96,51 +96,7 @@ export const Services = () => {
     },
   ];
 
-  const [active, setActive] = useState(null);
-  const [prevActive, setPrevActive] = useState(null);
-  const prevActiveHandler = (index) => {
-    setPrevActive(index);
-  };
-
-  useEffect(() => {
-    const groups = gsap.utils.toArray('.accordionGroup');
-    groups.forEach((group, index) => {
-      const content = group.querySelector('.accordionContent');
-      gsap.set(content, { height: index === active ? 'auto' : 0 });
-      const tween = gsap.fromTo(
-        content,
-        {
-          height: index === prevActive ? 'auto' : 0,
-          duration: 0.5,
-          ease: 'power1.inOut',
-          marginTop: index === prevActive ? 20 : 0,
-        },
-        {
-          height: index === active ? 'auto' : 0,
-          duration: 0.5,
-          ease: 'power1.inOut',
-          marginTop: index === active ? 20 : 0,
-        },
-      );
-      if (index === active) {
-        tween.play();
-      } else {
-        tween.reverse();
-      }
-    });
-    let prevActiveGroup = groups[prevActive];
-
-    if (prevActiveGroup) {
-      const prevActiveContent =
-        prevActiveGroup.querySelector('.accordionContent');
-      gsap.to(prevActiveContent, {
-        height: 0,
-        duration: 0.5,
-        ease: 'power1.inOut',
-        marginTop: 0,
-      });
-    }
-  }, [active]);
+  const [activeItems, setActiveItems] = useState([]);
 
   return (
     <div className="flex flex-col">
@@ -151,19 +107,23 @@ export const Services = () => {
             key={index}
             className={` accordionGroup border-b border-textColor pt-2 pb-5 last:border-none`}
             onClick={() => {
-              setActive(index);
-              prevActiveHandler(active);
+              setActiveItems((prev) =>
+                prev.includes(index)
+                  ? prev.filter((item) => item !== index)
+                  : [...prev, index],
+              );
             }}
           >
             <AccordionButton
               title={item.serviceTitle}
-              active={active}
               index={index}
+              active={activeItems.includes(index)}
             />
             <AccordionItemContent
               title={item.serviceTitle}
               serviceDescription={item.serviceDescription}
               variants={item.variants}
+              active={activeItems.includes(index)}
             />
           </div>
         ))}
