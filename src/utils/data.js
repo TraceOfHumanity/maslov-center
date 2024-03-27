@@ -1,5 +1,12 @@
-import { AiFillYoutube, AiOutlineInstagram } from "react-icons/ai";
-import { BiPhone } from "react-icons/bi";
+import { AiFillYoutube, AiOutlineInstagram } from 'react-icons/ai';
+import { BiPhone } from 'react-icons/bi';
+import {
+  MdOutlineSportsBasketball,
+  MdOutlineSportsSoccer,
+  MdSportsHandball,
+  MdSportsRugby,
+} from 'react-icons/md';
+import { TbYoga } from 'react-icons/tb';
 
 export const sliderItems = [
   {
@@ -73,3 +80,11 @@ export const links = [
     icon: <AiOutlineInstagram />,
   },
 ];
+
+// export const iconAnimationItems = [
+//   <TbYoga />,
+//   <MdOutlineSportsSoccer />,
+//   <MdOutlineSportsBasketball />,
+//   <MdSportsRugby />,
+//   <MdSportsHandball />,
+// ];

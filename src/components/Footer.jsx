@@ -19,7 +19,7 @@ export const Footer = () => {
       ease: 'power3.inOut',
       scrollTrigger: {
         trigger: footerRef.current,
-        start: 'top 100%',
+        start: 'top 95%',
         end: 'top 50%',
         toggleActions: 'play none none reverse',
       },
