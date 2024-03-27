@@ -20,6 +20,7 @@ export const Banner = () => {
     const textContainer = textContainerRef.current;
     const h1 = textContainer.querySelector('h1');
     const h4 = textContainer.querySelector('h4');
+    const a = textContainer.querySelector('a');
 
     gsap.fromTo(
       h1,
@@ -40,6 +41,17 @@ export const Banner = () => {
         opacity: 1,
         duration: 2,
         delay: 0.5,
+        ease: 'elastic.inOut(0.5, 0.7) ',
+      },
+    );
+    gsap.fromTo(
+      a,
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 2,
+        delay: 0.7,
         ease: 'elastic.inOut(0.5, 0.7) ',
       },
     );

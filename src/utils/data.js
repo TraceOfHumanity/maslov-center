@@ -1,12 +1,5 @@
 import { AiFillYoutube, AiOutlineInstagram } from 'react-icons/ai';
 import { BiPhone } from 'react-icons/bi';
-import {
-  MdOutlineSportsBasketball,
-  MdOutlineSportsSoccer,
-  MdSportsHandball,
-  MdSportsRugby,
-} from 'react-icons/md';
-import { TbYoga } from 'react-icons/tb';
 
 export const sliderItems = [
   {
@@ -70,14 +63,17 @@ export const links = [
   {
     href: 'tel:+380997393067',
     icon: <BiPhone />,
+    title: 'phone',
   },
   {
     href: 'https://www.youtube.com/@maslovcenter',
     icon: <AiFillYoutube />,
+    title: 'youtube',
   },
   {
     href: 'https://instagram.com/maslov_centr?igshid=YmMyMTA2M2Y=',
     icon: <AiOutlineInstagram />,
+    title: 'instagram',
   },
 ];
 

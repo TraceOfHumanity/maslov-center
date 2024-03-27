@@ -1,8 +1,11 @@
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { t } from 'i18next';
 import React, { useEffect, useRef, useState } from 'react';
 
 import { links } from 'utils/data';
+
+import { Button } from 'ui-elements/Button';
 
 export const Footer = () => {
   const [linkRefs] = useState([Array(links.length).fill(null)]);
@@ -32,13 +35,16 @@ export const Footer = () => {
         {links.map((link, index) => (
           <a
             key={index}
-            className="text-2xl "
+            className="text-xl"
             href={link.href}
             target="_blank"
             rel="noreferrer"
             ref={(el) => (linkRefs[index] = el)}
           >
-            {link.icon}
+            <Button>
+              {link.icon}
+              {link.title === 'phone' && t('banner.button')}
+            </Button>
           </a>
         ))}
       </div>
