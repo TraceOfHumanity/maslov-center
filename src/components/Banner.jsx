@@ -12,7 +12,7 @@ export const Banner = () => {
   const textContainerRef = useRef(null);
 
   useEffect(() => {
-    // const mm = gsap.matchMedia();
+    const mm = gsap.matchMedia();
     const textContainer = textContainerRef.current;
     const h1 = textContainer.querySelector('h1');
     const h4 = textContainer.querySelector('h4');
@@ -22,41 +22,41 @@ export const Banner = () => {
       duration: 2,
       opacity: 1,
     });
-    // mm.add('(min-width: 768px)', () => {
-    gsap.fromTo(
-      h1,
-      { y: 50, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 2,
-        delay: 0.3,
-        ease: 'elastic.inOut(0.5, 0.7) ',
-      },
-    );
-    gsap.fromTo(
-      h4,
-      { y: 50, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 2,
-        delay: 0.5,
-        ease: 'elastic.inOut(0.5, 0.7) ',
-      },
-    );
-    gsap.fromTo(
-      a,
-      { y: 50, opacity: 0 },
-      {
-        y: 0,
-        opacity: 1,
-        duration: 2,
-        delay: 0.7,
-        ease: 'elastic.inOut(0.5, 0.7) ',
-      },
-    );
-    // });
+    mm.add('(min-width: 768px)', () => {
+      gsap.fromTo(
+        h1,
+        { y: 50, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 2,
+          delay: 0.3,
+          ease: 'elastic.inOut(0.5, 0.7) ',
+        },
+      );
+      gsap.fromTo(
+        h4,
+        { y: 50, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 2,
+          delay: 0.5,
+          ease: 'elastic.inOut(0.5, 0.7) ',
+        },
+      );
+      gsap.fromTo(
+        a,
+        { y: 50, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          duration: 2,
+          delay: 0.7,
+          ease: 'elastic.inOut(0.5, 0.7) ',
+        },
+      );
+    });
   }, []);
 
   return (
