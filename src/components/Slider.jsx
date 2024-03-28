@@ -16,7 +16,7 @@ export const GallerySlider = () => {
     const { onClick } = props;
     return (
       <div
-        className="absolute top-1/2 right-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
+        className="absolute top-1/2 right-2 z-20 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
         onClick={onClick}
       >
         <button className="text-[30px] lg:text-[50px]">
@@ -29,7 +29,7 @@ export const GallerySlider = () => {
     const { onClick } = props;
     return (
       <div
-        className="absolute top-1/2 left-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
+        className="absolute top-1/2 left-2 z-20 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
         onClick={onClick}
       >
         <button className="text-[30px] lg:text-[50px]">
@@ -75,7 +75,7 @@ export const GallerySlider = () => {
   return (
     <div className="relative my-3 overflow-hidden md:my-8">
       <h2 className="mb-5 text-center">{t('gallery.title')}</h2>
-      <Slider {...settingsSlider} className="">
+      <Slider {...settingsSlider}>
         {sliderItems.map((item) => (
           <div key={item.id} className="slideItem relative">
             <div className="absolute top-0 left-0 flex h-full w-full items-center justify-center">
