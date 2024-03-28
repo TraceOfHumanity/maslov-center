@@ -98,7 +98,7 @@ export const Services = () => {
   const [activeItems, setActiveItems] = useState([]);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-2 md:gap-5">
       <h2 className="text-center">{t('services.titles.mainTitle')}</h2>
       <div className={`flex flex-col gap-5`}>
         {serviceItems.map((item, index) => (
