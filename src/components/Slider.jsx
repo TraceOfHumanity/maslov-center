@@ -16,7 +16,7 @@ export const GallerySlider = () => {
     const { onClick } = props;
     return (
       <div
-        className="bg-main-dark-bg absolute top-1/2 right-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-opacity-60"
+        className="absolute top-1/2 right-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
         onClick={onClick}
       >
         <button className="text-[30px] lg:text-[50px]">
@@ -29,7 +29,7 @@ export const GallerySlider = () => {
     const { onClick } = props;
     return (
       <div
-        className="bg-main-dark-bg absolute top-1/2 left-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-opacity-60"
+        className="absolute top-1/2 left-2 z-10 flex -translate-y-1/2 items-center justify-center rounded-full bg-contentBlockBg bg-opacity-60"
         onClick={onClick}
       >
         <button className="text-[30px] lg:text-[50px]">

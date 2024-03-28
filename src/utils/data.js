@@ -76,3 +76,5 @@ export const links = [
     title: 'instagram',
   },
 ];
+
+export const languages = ['ua', 'en'];
