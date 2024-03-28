@@ -39,13 +39,17 @@ export const GallerySlider = () => {
     );
   };
   const settingsSlider = {
-    dots: true,
+    dots: false,
+    draggable: true,
+    swipe: true,
+    touchMove: true,
+    waitForAnimate: false,
     infinite: true,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    lazyLoad: true,
-    accessibility: true,
+    lazyLoad: false,
+    accessibility: false,
     autoplay: true,
     autoplaySpeed: 4000,
     nextArrow: <SampleNextArrow />,
