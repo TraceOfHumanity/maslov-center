@@ -9,7 +9,6 @@ import { Button } from 'ui-elements/Button';
 export const LanguageButtons = () => {
   const { i18n } = useTranslation();
   const [currentLanguage, setCurrentLanguage] = useState('');
-  console.log(currentLanguage);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
