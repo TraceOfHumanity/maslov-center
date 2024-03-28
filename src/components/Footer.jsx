@@ -2,6 +2,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { t } from 'i18next';
 import React, { useEffect, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import { links } from 'utils/data';
 
@@ -10,6 +11,7 @@ import { Button } from 'ui-elements/Button';
 export const Footer = () => {
   const [linkRefs] = useState([Array(links.length).fill(null)]);
   const footerRef = useRef(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);

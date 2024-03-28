@@ -77,4 +77,4 @@ export const links = [
   },
 ];
 
-export const languages = ['ua', 'en'];
+export const languages = ['uk', 'en'];

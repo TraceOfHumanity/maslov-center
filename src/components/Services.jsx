@@ -100,11 +100,11 @@ export const Services = () => {
   return (
     <div className="flex flex-col gap-2 md:gap-5">
       <h2 className="text-center">{t('services.titles.mainTitle')}</h2>
-      <div className={`flex flex-col gap-5`}>
+      <div className={`flex flex-col`}>
         {serviceItems.map((item, index) => (
           <div
             key={index}
-            className={` accordionGroup border-b border-textColor pt-2 pb-5 last:border-none`}
+            className={` accordionGroup border-b border-textColor  last:border-none`}
           >
             <AccordionButton
               title={item.serviceTitle}
