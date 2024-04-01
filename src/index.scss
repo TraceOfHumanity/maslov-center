@@ -90,7 +90,7 @@
 
   .particle:nth-child(#{$i}) {
     $size: random(5)+5+px;
-    opacity: random(30)/70;
+    opacity: calc(random(30)/70);
     height: $size;
     width: $size;
     animation-delay: -$i * .2s;
