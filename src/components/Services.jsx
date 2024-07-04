@@ -95,7 +95,7 @@ export const Services = () => {
     },
   ];
 
-  const [activeItems, setActiveItems] = useState([]);
+  const [activeItems, setActiveItems] = useState([0,1,2,3,4]);
 
   return (
     <div className="flex flex-col gap-2 md:gap-5">
