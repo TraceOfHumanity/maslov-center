@@ -1,16 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @layer base;
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --color-body-bg-from: #ffefeb;
-  --color-body-bg-to: #ae9c9c;
-  --color-text: #000;
+  --color-body-bg-from: #eed5ce;
+  --color-body-bg-to: #ffefeb;
+  --color-text: #6e6245;
 
   .dark {
-    --color-body-bg-from: #1a202c;
-    --color-body-bg-to: #2d3748;
-    --color-text: #fff;
+    --color-body-bg-from: #08080A;
+    --color-body-bg-to: #131017;
+    --color-text: #EDECF1;
+
   }
 }
 @layer base {
@@ -21,6 +23,9 @@
         var(--color-body-bg-to)
       )
       no-repeat fixed;
+    overflow: hidden;
     color: var(--color-text);
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
   }
 }

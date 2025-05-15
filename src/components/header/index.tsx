@@ -1,12 +1,11 @@
-import { useTheme } from "@/hooks/useTheme";
-import { useAppSelector } from "@/redux/hooks";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { ThemeSwitcher } from "./themeSwitcher";
 
 export const Header = () => {
-  const { theme } = useAppSelector((state) => state.theme);
-  const { handleTheme } = useTheme();
   return (
-    <div>
-      <button onClick={handleTheme}>{theme === "light" ? "Light" : "Dark"}</button>
+    <div className="pt-[1vh] flex justify-end gap-4">
+      <LanguageSwitcher />
+      <ThemeSwitcher />
     </div>
   );
 };
