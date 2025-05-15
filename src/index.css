@@ -1,0 +1,17 @@
+@layer base;
+@import "tailwindcss";
+
+:root {
+  --color-body-bg-from: #ffefeb;
+  --color-body-bg-to: #ae9c9c;
+}
+@layer base {
+  body {
+    background: linear-gradient(
+        to bottom,
+        var(--color-body-bg-from),
+        var(--color-body-bg-to)
+      )
+      no-repeat fixed;
+  }
+}
