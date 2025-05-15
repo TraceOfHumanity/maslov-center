@@ -6,6 +6,7 @@ export const useTheme = () => {
   const dispatch = useAppDispatch();
   const { theme } = useAppSelector((state) => state.theme);
 
+
   const handleTheme = () => {
     if (theme === 'light') {
       localStorage.setItem('theme', 'dark');

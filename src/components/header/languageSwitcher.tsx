@@ -1,13 +1,8 @@
 import { useLocalization } from "@/hooks/useLocalization";
 
 export const LanguageSwitcher = () => {
-  const { changeLanguage } = useLocalization();
-  const languageList = ["uk", "en"];
+  const { currentLanguage, changeLanguage } = useLocalization();
   return <div className="flex gap-2">
-    {languageList.map((language) => (
-      <button key={language} onClick={() => changeLanguage(language)}>
-        {language}
-      </button>
-    ))}
+    <button className="text-xl" onClick={() => changeLanguage(currentLanguage === "uk" ? "en" : "uk")}> {currentLanguage === "uk" ? <div>🇺🇦 UK</div> : <div>🇬🇧 EN</div>}</button>
   </div>;
 };
