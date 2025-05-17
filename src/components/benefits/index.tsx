@@ -39,7 +39,7 @@ export const Benefits = () => {
           ))}
         </ul>
       </SectionWrapper>
-      <img className="" src="/assets/whyWe.jpg" alt="" />
+      <img className="rounded-lg" src="/assets/whyWe.jpg" alt="" />
     </div>
   )
 }
