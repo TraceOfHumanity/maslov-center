@@ -7,7 +7,7 @@ import { Services } from "./components/services";
 
 function App() {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-4 overflow-y-auto max-h-screen">
       <Header />
       <Banner />
       <Benefits />
