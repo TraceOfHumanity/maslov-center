@@ -4,7 +4,7 @@ export const SectionWrapper = ({ children, className }: { children: React.ReactN
   return (
     <div
       className={cn(
-        'relative z-10 overflow-hidden rounded-lg bg-contentBg p-4 shadow-card',
+        'relative z-10 overflow-hidden rounded-lg backdrop-blur-2xl p-4 shadow-card bg-white/10 border border-white/20',
         className,
       )}
     >
