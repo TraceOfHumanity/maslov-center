@@ -101,27 +101,30 @@ export const Services = () => {
     },
   ];
   return (
-    <Accordion type="multiple">
-      {serviceItems.map((item, index) => (
-        <AccordionItem key={index} value={`item-${index}`}>
-          <AccordionTrigger>{item.serviceTitle}</AccordionTrigger>
-          <AccordionContent className="grid gap-3">
-            {item.variants.map((variant, index) => (
-              <SectionWrapper key={index} className={cn("grid gap-3 sm:grid-cols-2 lg:grid-cols-3", index % 2 === 0 && "float-right")}>
-                {index % 2 === 0 && variant.image && (
-                  <img className="col-span-1 rounded-lg" src={variant.image} alt={variant.title} />
-                )}
-                <h3 className="col-span-full row-start-1 text-center">{variant.title}</h3>
-                {variant.description && <p className="col-span-2">{variant.description}</p>}
-                {index % 2 !== 0 && variant.image && (
-                  <img className="col-span-1 rounded-lg" src={variant.image} alt={variant.title} />
-                )}
-              </SectionWrapper>
-            ))}
-          </AccordionContent>
+    <>
+      <h2 className="text-center">{t('services.titles.mainTitle')}</h2>
+      <Accordion type="multiple">
+        {serviceItems.map((item, index) => (
+          <AccordionItem key={index} value={`item-${index}`}>
+            <AccordionTrigger>{item.serviceTitle}</AccordionTrigger>
+            <AccordionContent className="grid gap-3">
+              {item.variants.map((variant, index) => (
+                <SectionWrapper key={index} className={cn("grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3")}>
+                  {index % 2 === 0 && variant.image && (
+                    <img className="col-span-full sm:col-span-1 rounded-lg" src={variant.image} alt={variant.title} />
+                  )}
+                  <h3 className="col-span-full row-start-1 text-center">{variant.title}</h3>
+                  {variant.description && <p className="col-span-2">{variant.description}</p>}
+                  {index % 2 !== 0 && variant.image && (
+                    <img className="col-span-full sm:col-span-1 rounded-lg" src={variant.image} alt={variant.title} />
+                  )}
+                </SectionWrapper>
+              ))}
+            </AccordionContent>
 
-        </AccordionItem>
-      ))}
-    </Accordion>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </>
   )
 };

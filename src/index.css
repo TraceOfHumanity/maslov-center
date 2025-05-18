@@ -15,17 +15,17 @@
 }
 
 @layer base {
-  body {
-    overflow: hidden;
-    background-image: url('/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: var(--color-text);
-    min-height: 100vh;
-    font-family: "Roboto", sans-serif;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
+}
+body {
+  overflow: hidden;
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--color-text);
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1,
