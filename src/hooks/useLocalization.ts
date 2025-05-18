@@ -1,10 +1,12 @@
-import {useEffect, useState} from "react";
-import {useTranslation} from "react-i18next";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 export const useLocalization = () => {
-  const {i18n} = useTranslation();
+  const { i18n } = useTranslation();
 
-  const [currentLanguage, setCurrentLanguage] = useState<string>(localStorage.getItem("i18nextLng") || "");
+  const [currentLanguage, setCurrentLanguage] = useState<string>(
+    localStorage.getItem("i18nextLng") || "",
+  );
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
@@ -17,5 +19,5 @@ export const useLocalization = () => {
     setCurrentLanguage(lng);
   }, [lng]);
 
-  return {changeLanguage, currentLanguage, setCurrentLanguage};
+  return { changeLanguage, currentLanguage, setCurrentLanguage };
 };
