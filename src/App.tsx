@@ -7,7 +7,7 @@ import { Services } from "./components/services";
 
 function App() {
   return (
-    <div className="container mx-auto px-4 overflow-y-auto max-h-screen gap-[1vw] flex flex-col">
+    <div className="container mx-auto px-4 overflow-y-auto max-h-dvh gap-[1vw] flex flex-col">
       <Header />
       <Banner />
       <Benefits />

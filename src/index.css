@@ -9,15 +9,14 @@
   --color-body-bg-from: #fde7ea;
   --color-body-bg-to: #fdefda;
   --color-text: #edecf1;
-  /* --color-contentBg: #fff4f3; */
   --shadow-shadowColor: 0 0 10px rgba(0, 0, 0, 0.1);
   --color-accentColor: #7f2b7c78;
 }
-
-@layer base {
-}
+html,
 body {
   overflow: hidden;
+}
+body {
   background-image: url("/bg.jpg");
   background-size: cover;
   background-position: center;
