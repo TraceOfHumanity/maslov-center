@@ -1,8 +1,8 @@
 import { ServiceCard } from "./Card";
-import massage from "../../assets/massage.png";
-import tea from "../../assets/tea.jpg";
-import training from "../../assets/training.jpg";
-import fito from "../../assets/barrel.jpg";
+import massage from "../../assets/massage.webp";
+import tea from "../../assets/tea.webp";
+import training from "../../assets/training.webp";
+import fito from "../../assets/barrel.webp";
 
 const services = [
   {
