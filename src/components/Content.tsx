@@ -6,7 +6,6 @@ import { Experience } from "./Experience";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
 import { Service } from "./Service";
-// import { Ticker } from "./Ticker";
 
 export const Content = () => {
   return (
@@ -18,7 +17,6 @@ export const Content = () => {
         <Benefits />
         <Experience />
         <Service />
-        {/* <Ticker /> */}
         <Contact />
         <Footer />
       </div>

@@ -12,6 +12,7 @@
     <meta name="keywords" content="масаж, реабілітація, йога, фітобочка" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Маслов Центр" />
+    <link rel="preload" as="font" type="font/woff2" crossorigin href="/node_modules/@fontsource-variable/roboto/files/roboto-cyrillic-wght-normal.woff2" />
     <title>Маслов Центр | Реабілітація | Масаж | Йога | Суми</title>
     <style>
       #loading-screen {
@@ -68,16 +69,13 @@
     <script type="module" src="/src/main.tsx"></script>
     <script>
       window.addEventListener('load', function() {
+        var loadingScreen = document.getElementById('loading-screen');
+        if (!loadingScreen) return;
+        loadingScreen.style.transition = 'opacity 0.3s ease-out';
+        loadingScreen.style.opacity = '0';
         setTimeout(function() {
-          const loadingScreen = document.getElementById('loading-screen');
-          if (loadingScreen) {
-            loadingScreen.style.opacity = '0';
-            loadingScreen.style.transition = 'opacity 0.5s ease-out';
-            setTimeout(function() {
-              loadingScreen.style.display = 'none';
-            }, 500);
-          }
-        }, 1000);
+          loadingScreen.style.display = 'none';
+        }, 300);
       });
     </script>
   </body>

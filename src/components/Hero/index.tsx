@@ -6,6 +6,8 @@ export const Hero = () => {
       <img
         src="/logo.svg"
         alt="Maslov Center"
+        width={673}
+        height={442}
         className="w-2/3 mx-auto mb-[10vh] md:w-2/5"
       />
       <h1>Реабілітація | Масаж | Йога</h1>

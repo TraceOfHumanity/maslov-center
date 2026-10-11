@@ -24,6 +24,10 @@ export const ServiceCard = ({
           <img
             src={imageUrl}
             alt={title}
+            width={900}
+            height={600}
+            loading="lazy"
+            decoding="async"
             className="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover rounded-lg"
           />
           {extra.length > 0 && (
